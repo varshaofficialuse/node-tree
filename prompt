@@ -1,0 +1,242 @@
+I have an existing Python file named tsql_visitor.py.
+This file is generated from ANTLR grammar for T-SQL and then extended with custom business logic.
+
+Now I need to convert this file into C# as TsqlVisitor.cs.
+
+Important Requirements:
+
+The new C# file must inherit from the correct ANTLR-generated C# base visitor class (equivalent to the Python base class).
+
+All logic from tsql_visitor.py must be converted exactly as-is into C#.
+
+Do NOT modify, optimize, refactor, simplify, or redesign the logic.
+
+Do NOT change method names unless required by C# naming rules.
+
+Maintain:
+
+Same method structure
+
+Same traversal logic
+
+Same conditional logic
+
+Same return values
+
+Same control flow
+
+Same data handling behavior
+
+Ensure behavior is 100% identical to Python version.
+
+If Python uses dynamic typing, convert carefully to strongly typed C# equivalents without changing behavior.
+
+Preserve:
+
+Null checks
+
+Dictionary/list handling
+
+Any recursive logic
+
+Any state variables
+
+Do not introduce new patterns, LINQ rewrites, or architectural changes.
+
+The goal is DICTO (exact) logic migration, not improvement.
+
+If something cannot be translated directly, explain the issue and provide the closest equivalent implementation while preserving behavior.
+
+I will now paste the full tsql_visitor.py file. Convert it completely into TsqlVisitor.cs following the above constraints.
+
+🔹 Why This Works
+
+This prompt:
+
+Prevents Copilot from refactoring
+
+Stops optimization
+
+Forces strict logic matching
+
+Clarifies ANTLR inheritance
+
+Reduces risk of behavioral changes
+
+If you want, I can also give you:
+
+A stricter “enterprise-safe” version
+
+Or a version that forces step-by-step conversion method-by-method
+
+Just tell me 👍
+
+A stricter “enterprise-safe” version
+
+Or a version that forces step-by-step conversion method-by-method
+
+ho asach pahije
+
+Perfect 👍
+Below are two advanced enterprise-grade prompts designed specifically for strict corporate environments where:
+
+❌ No external AI allowed
+
+❌ No logic modification allowed
+
+❌ No refactoring allowed
+
+✅ 100% deterministic migration required
+
+✅ Zero functional deviation tolerated
+
+🔒 VERSION 1 — ULTRA STRICT ENTERPRISE-SAFE PROMPT
+
+Use this when you want Copilot to behave like a deterministic code translator, not a smart assistant.
+
+🔹 ENTERPRISE SAFE MIGRATION PROMPT
+
+I am performing a strict one-to-one migration of a Python ANTLR Visitor class (tsql_visitor.py) into C# (TsqlVisitor.cs).
+
+This is a regulated enterprise codebase.
+Behavioral equivalence is mandatory.
+
+You MUST follow these rules strictly:
+
+This is NOT a refactoring task.
+
+This is NOT a redesign task.
+
+This is NOT a code improvement task.
+
+This is NOT an optimization task.
+
+This is NOT a modernization task.
+
+This is a DIRECT LOGIC TRANSLATION TASK.
+
+Constraints:
+
+Preserve every method exactly.
+
+Preserve method names unless C# syntax requires change.
+
+Preserve method signatures logically equivalent to ANTLR C# visitor.
+
+Preserve all control flow (if/else, loops, recursion).
+
+Preserve return values exactly.
+
+Preserve dictionary/list behavior exactly.
+
+Preserve state variables and class-level fields exactly.
+
+Preserve traversal order exactly.
+
+Preserve null-handling behavior exactly.
+
+Do NOT introduce LINQ.
+
+Do NOT simplify conditionals.
+
+Do NOT merge statements.
+
+Do NOT extract helper methods.
+
+Do NOT rename variables unless required for C# compilation.
+
+Do NOT remove unused variables.
+
+Do NOT change algorithm structure.
+
+Do NOT introduce new patterns.
+
+If Python uses dynamic typing:
+
+Convert to strongly typed C# equivalents carefully.
+
+Do not change runtime behavior.
+
+If Python uses:
+
+dict → convert to Dictionary<TKey, TValue>
+
+list → convert to List<T>
+
+None → convert to null
+
+isinstance → convert to appropriate C# type checking
+
+truthy checks → convert explicitly
+
+The output must:
+
+Compile in C#
+
+Inherit from the correct ANTLR-generated C# base visitor
+
+Maintain 100% identical runtime behavior
+
+If something cannot be translated directly:
+
+Explain briefly why
+
+Provide the closest equivalent while preserving behavior
+
+I will now paste the full tsql_visitor.py.
+Translate it completely into TsqlVisitor.cs under the above constraints.
+
+Do not skip any method.
+
+🧠 VERSION 2 — METHOD-BY-METHOD CONTROLLED MIGRATION PROMPT
+
+Use this when you want maximum control and zero risk.
+This forces Copilot to translate one method at a time.
+
+🔹 STEP-BY-STEP CONTROLLED MIGRATION PROMPT
+
+We are migrating tsql_visitor.py (Python ANTLR Visitor) to TsqlVisitor.cs.
+
+This must be done method-by-method.
+
+Rules:
+
+Convert ONE method at a time.
+
+Do not generate the full file at once.
+
+After converting each method:
+
+Confirm logic equivalence.
+
+Ensure control flow is identical.
+
+Ensure return behavior is identical.
+
+Do NOT refactor.
+
+Do NOT optimize.
+
+Do NOT introduce LINQ.
+
+Do NOT change logic structure.
+
+Do NOT change algorithm sequence.
+
+Preserve all state variables.
+
+Preserve traversal order.
+
+Preserve conditional branching exactly.
+
+For each method:
+
+First show the original Python method.
+
+Then show the exact C# equivalent.
+
+Explain any required syntactic adjustments only (no improvements).
+
+We will proceed method-by-method.
+
+Wait for my confirmation before converting the next method.
